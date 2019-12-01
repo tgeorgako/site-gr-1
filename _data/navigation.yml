@@ -1,0 +1,9 @@
+# main links
+main:
+  - title: "Προσωπικό"
+    url: "/people/"
+  - title: "Σπουδές"
+    url: "/courses/"
+  - title: "Ανακοινώσεις"
+    url: "/posts/"
+
