@@ -1,9 +1,9 @@
                         importScripts("/site-gr/workbox-v3.6.3/workbox-sw.js");
             workbox.setConfig({modulePathPrefix: "/site-gr/workbox-v3.6.3"});
 
-            self.__precacheManifest = [{"url":"/site-gr//index.html","revision":"696f300810d9230688f876cedf9bac80"}];
+            self.__precacheManifest = [{"url":"/site-gr//index.html","revision":"9bd54f7ce868d88794f8eea70ba1f836"}];
                     if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/site-gr//sw-register.js?v=1575480596').then(function(reg) {
+            navigator.serviceWorker.register('/site-gr//sw-register.js?v=1575481057').then(function(reg) {
                 reg.onupdatefound = function() {
                     var installingWorker = reg.installing;
                     installingWorker.onstatechange = function() {
